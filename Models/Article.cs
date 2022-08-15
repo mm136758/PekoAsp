@@ -14,5 +14,6 @@ namespace PekoAsp.Models
 		public DateTime ReleaseDate { get; set; }
 		public string Link { get; set; }
 		public decimal Count { get; set; }
+		public string Category { get; set; }
 	}
 }
