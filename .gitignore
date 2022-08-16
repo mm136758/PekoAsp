@@ -2,3 +2,6 @@ bin/*
 obj/*
 .vscode/*
 localhost.db
+dbinit.sql
+localhost.db-shm
+localhost.db-wal
