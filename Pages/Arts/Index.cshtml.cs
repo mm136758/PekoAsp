@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using PekoAsp.Data;
 using PekoAsp.Models;
 
-namespace PekoAsp.Pages_Articles
+namespace PekoAsp.Pages_Arts
 {
     public class IndexModel : PageModel
     {

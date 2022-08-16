@@ -10,7 +10,7 @@ namespace PekoAsp.Models
 		[Required]
 		public string Title { get; set; }
 
-		[Display(Name = "Release Date")]
+		[Display(Name = "ReleaseDate")]
 		[DataType(DataType.Date)]
 		[DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy/MM/dd}")]
 		[Required]

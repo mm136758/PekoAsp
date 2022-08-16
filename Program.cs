@@ -6,17 +6,17 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddDbContext<PekoAspContext>(options =>
-	options.UseSqlite(builder.Configuration.GetConnectionString("PekoAspContext") ?? throw new InvalidOperationException("Connection string 'PekoAspContext' not found.")));
+// builder.Services.AddDbContext<PekoAspContext>(options =>
+// 	options.UseSqlite(builder.Configuration.GetConnectionString("PekoAspContext") ?? throw new InvalidOperationException("Connection string 'PekoAspContext' not found.")));
 if (builder.Environment.IsDevelopment())
 {
 	builder.Services.AddDbContext<PekoAspContext>(options =>
-		options.UseSqlite(builder.Configuration.GetConnectionString("PekoAspContext")));
+	options.UseSqlite(builder.Configuration.GetConnectionString("PekoAspContext")));
 }
 else
 {
 	builder.Services.AddDbContext<PekoAspContext>(options =>
-		options.UseSqlServer(builder.Configuration.GetConnectionString("ProductionMovieContext")));
+	options.UseSqlServer(builder.Configuration.GetConnectionString("ProductionPekoAspContext")));
 }
 
 var app = builder.Build();
