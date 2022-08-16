@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-08-16T07:36:14.4896026Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2022-08-16T07:36:05.3677093Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "018d0b17-07d9-4940-bdc7-f64e78ee74ad"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "peko"
+    }
+  }
+}
