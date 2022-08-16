@@ -16,7 +16,7 @@ if (builder.Environment.IsDevelopment())
 else
 {
 	builder.Services.AddDbContext<PekoAspContext>(options =>
-		options.UseSqlServer(builder.Configuration.GetConnectionString("ProductionMovieContext")));
+		options.UseSqlServer(builder.Configuration.GetConnectionString("AZURE_SQL_CONNECTIONSTRING")));
 }
 
 var app = builder.Build();
