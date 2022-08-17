@@ -6,3 +6,4 @@ dbinit.sql
 localhost.db-shm
 localhost.db-wal
 appsettings.json
+ .vs/PekoAsp/v17/.suo
