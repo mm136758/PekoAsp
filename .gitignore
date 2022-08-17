@@ -5,3 +5,4 @@ localhost.db
 dbinit.sql
 localhost.db-shm
 localhost.db-wal
+appsettings.json
