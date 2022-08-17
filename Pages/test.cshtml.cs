@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,13 +8,13 @@ using Microsoft.EntityFrameworkCore;
 using PekoAsp.Data;
 using PekoAsp.Models;
 
-namespace PekoAsp.Pages_Articles
+namespace PekoAsp.Pages
 {
-    public class IndexModel : PageModel
+    public class testModel : PageModel
     {
         private readonly PekoAsp.Data.PekoAspContext _context;
 
-        public IndexModel(PekoAsp.Data.PekoAspContext context)
+        public testModel(PekoAsp.Data.PekoAspContext context)
         {
             _context = context;
         }

@@ -1,0 +1,64 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2022-08-16T13:20:30.1615365Z"
+    },
+    "mssql1": {
+      "restored": false,
+      "restoreTime": "2022-08-16T13:54:26.9133169Z"
+    }
+  },
+  "parameters": {
+    "pekoSql001.subscriptionId": {
+      "Name": "pekoSql001.subscriptionId",
+      "Type": "subscription",
+      "Value": "018d0b17-07d9-4940-bdc7-f64e78ee74ad"
+    },
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "018d0b17-07d9-4940-bdc7-f64e78ee74ad"
+    },
+    "pekoSql001.resourceGroupName": {
+      "Name": "pekoSql001.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "msdocs-core-sql"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "msdocs-core-sql"
+    },
+    "pekoSql001.resourceName": {
+      "Name": "pekoSql001.resourceName",
+      "Type": null,
+      "Value": "pekoSql001"
+    },
+    "pekoSql001.resourceGroupLocation": {
+      "Name": "pekoSql001.resourceGroupLocation",
+      "Type": null,
+      "Value": "eastasia"
+    },
+    "mssql2.subscriptionId": {
+      "Name": "mssql2.subscriptionId",
+      "Type": "subscription",
+      "Value": "018d0b17-07d9-4940-bdc7-f64e78ee74ad"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "018d0b17-07d9-4940-bdc7-f64e78ee74ad"
+    },
+    "mssql1.resourceGroupLocation": {
+      "Name": "mssql1.resourceGroupLocation",
+      "Type": "location",
+      "Value": "eastasia"
+    },
+    "mssql2.resourceGroupName": {
+      "Name": "mssql2.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "msdocs-core-sql"
+    }
+  }
+}
